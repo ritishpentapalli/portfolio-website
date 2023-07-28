@@ -91,5 +91,12 @@ nav {
     margin-right: 5px;
     margin-top: 15px;
     border-radius: 6px;
-    
+}
+
+.main {
+    font-family: "Rubik";
+    font-size: 50px;
+    display: grid;
+    place-items: center;
+
 }
