@@ -1,101 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
-.navbarLeft {
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainPage {
     display: flex;
-}
-
-.navbarHome {
-    width: 80px;
-    font-family: "Rubik";
-    font-size: large;
-    font-weight: 600;
-    display: grid;
-    place-items: center;
-    
-    margin-right: 10px;
-    cursor: pointer;
-    transition: 0.3s;
-
-    height: 60px;
-}
-
-.navbarProjects {
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 100px;
-    font-family: "Rubik";
-    font-size: large;
-    font-weight: 600;
-    display: grid;
-    place-items: center;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.navbarAbout {
-    margin-left: 10px;
-    width: 85px;
-    font-family: "Rubik";
-    font-size: large;
-    font-weight: 600;
-    display: grid;
-    place-items: center;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.navbarHome:hover {
-    background-color: rgb(137, 137, 137);
-    border-radius: 6px;
-}
-
-.navbarProjects:hover {
-    background-color: rgb(137, 137, 137);
-    border-radius: 6px;
-}
-
-.navbarAbout:hover {
-    background-color: rgb(137, 137, 137);
-    border-radius: 6px;
-}
-
-.navbarButton {
-
-    border: 0px;
-    border-radius: 6px;
-    padding: 7px;
-    cursor: pointer;
-    font-family: "Rubik",'Times New Roman';
-    font-weight: 450;
-    font-size: 18px;
-    transition: 0.2s;
-}
-
-.navbarButton:hover {
-
-    box-shadow: 1px 1px 3px 1px grey;
-
-}
-
-nav {
-    background-color: #d3d3d3;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content:space-between ;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-right: 15px;
-    padding-left: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 15px;
-    border-radius: 6px;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
 }
 
-.main {
-    font-family: "Rubik";
-    font-size: 50px;
-    display: grid;
-    place-items: center;
+.primaryText {
+    font-family: 'Rubik';
+    font-size: 175%;
+    
 }
+
+.clickHere {
+    margin-top: 10px;
+    width: 275px;
+    height: 50px;
+    font-family: "Rubik";
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 125px;
+    border: 0;
+
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    border-radius: 20px;
+    margin: 2%;
+    background-color: red;
+}
+
+
+
+
+
+
